@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="end">
+<meta name="veiwport" content="width-device-width, inital-scale=1.0">
+    <head>
+        <title>Headings</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <style>
+            .but{
+                width: 200px;
+                height: 50px;
+                }
+            .but:hover{
+    background-color: blanchedalmond;
+                }
+
+/* If the style of the screen is a certain width, 
+then change the style of the page in one way */
+            @media (min-width: 600px){
+                body {
+                    background-color: pink;
+                }
+            }
+            @media (max-width: 599px){
+                body{
+                    background-color: aqua;
+                }
+            }
+        </style>
+        <form>
+            <input type="text" placeholder="Full Name"name="full_name">
+            <input class="but" type="submit">
+        </form>
+
+        <ul>
+            <li>Item1</li>
+            <li>Item2</li>
+            <li>Item3</li>
+        </ul>
+
+        <ol>
+            <li>Item1</li>
+            <li>Item2</li>
+            <li>Item3</li>
+        </ol>
+
+    </body>
+</html>
+

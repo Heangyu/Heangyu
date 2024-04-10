@@ -1,0 +1,20 @@
+.error, .warning, .sucess {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.sucess {
+  background-color: green;
+}
+
+.warning {
+  background-color: violet;
+}
+
+.error {
+  background-color: darkkhaki;
+}/*# sourceMappingURL=messages.css.map */

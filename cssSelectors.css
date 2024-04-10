@@ -1,0 +1,8 @@
+ul>li{
+    color: salmon;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a[href="https://facebook.com"] {
+    color: red;
+}
